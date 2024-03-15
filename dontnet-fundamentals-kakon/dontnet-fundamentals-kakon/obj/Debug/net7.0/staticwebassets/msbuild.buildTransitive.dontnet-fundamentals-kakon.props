@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/dontnet-fundamentals-kakon.props" />
-</Project>

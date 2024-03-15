@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/dontnet-fundamentals-kakon.props" />
-</Project>
