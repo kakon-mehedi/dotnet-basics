@@ -37,6 +37,13 @@ public class Home : Controller
     {
         return id;
     }
+    
+    // Url Has to given in this format '/Home/Details?firstName=Kakon&lastName=Mehedii&id=10'
+
+    public string Details(string id, string firstName, string lastName)
+    {
+        return $"{firstName} - {lastName} - {id}";
+    }
 
     // '/Home/Users/ProUser/Kakon'
     [HttpGet("/{Controller}/Users/ProUser/{name?}")]
