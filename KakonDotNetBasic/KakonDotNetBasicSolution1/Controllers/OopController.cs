@@ -5,8 +5,8 @@ namespace KakonDotNetBasicSolution1.Controllers;
 public class OopController : Controller
 {
     // GET
-    public IActionResult Index()
+    public int Index()
     {
-        return View();
+        return 1;
     }
 }
